@@ -1,6 +1,6 @@
 [submodule "extern/glfw"]
 	path = extern/glfw
-	url = ./extern/glfw
-[submodule "extern/linmath.h"]
-	path = extern/linmath.h
-	url = ./extern/linmath.h
+	url = https://github.com/glfw/glfw.git
+[submodule "extern/linmath"]
+	path = extern/linmath
+	url = https://github.com/datenwolf/linmath.h.git

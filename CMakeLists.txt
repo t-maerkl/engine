@@ -32,6 +32,6 @@ target_include_directories(glad PRIVATE extern/glad/include)
 
 add_executable(engine main.cpp)
 
-target_include_directories(engine PUBLIC extern/glad/include extern/linmath.h)
+target_include_directories(engine PUBLIC extern/glad/include extern/linmath)
 
 target_link_libraries(engine glad glfw OpenGL::GL)
