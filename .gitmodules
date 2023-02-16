@@ -1,0 +1,6 @@
+[submodule "extern/glfw"]
+	path = extern/glfw
+	url = ./extern/glfw
+[submodule "extern/linmath.h"]
+	path = extern/linmath.h
+	url = ./extern/linmath.h
