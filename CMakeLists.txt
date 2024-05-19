@@ -30,7 +30,13 @@ add_library(glad STATIC extern/glad/src/gl.c extern/glad/include/glad/gl.h)
 
 target_include_directories(glad PRIVATE extern/glad/include)
 
-add_executable(engine main.cpp)
+add_executable(engine main.cpp
+        src/rendering/ARenderer.cpp
+        src/rendering/ARenderer.h
+        src/rendering/openGL/OpenGLRenderer.cpp
+        src/rendering/openGL/OpenGLRenderer.h
+        src/engine/Engine.cpp
+        src/engine/Engine.h)
 
 target_include_directories(engine PUBLIC extern/glad/include extern/linmath)
 
